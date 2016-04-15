@@ -1,0 +1,389 @@
+/*font-family: 'Roboto', sans-serif; (100 300 400)
+font-family: 'Great Vibes', cursive; (400)*/
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 100%;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+/*HEADER ELEMENTS*/
+/*Class*/
+.containerOne {
+	background-color: #696969;
+	width: 100%;
+}
+/*html5*/
+header {
+	background-color: #696969;
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+	padding-top: 1%;
+	padding-left: 2%;
+	border-bottom: #000 solid 1px;
+	border-bottom-style: double;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+/*IDs*/
+#logo {
+	font-family: 'Great Vibes', sans-serif; 
+	font-weight: 400;
+	color: #FFF;
+	font-size: 2.5em;
+	display: inline-block;
+	padding-top: 32px;
+}
+
+ul#mainNav {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #FFF;
+	font-size: 0.8em;
+	padding-top: 53px;
+	padding-right: 5px;
+}
+
+#mainNav a {
+	color: #FFF;
+	text-decoration: none;
+	border-style: none;
+}
+
+
+/*INDEX MAIN CONTENT ELEMENTS*/
+/*Class of Main Container*/
+.containerTwo {
+	background-color: #fafafa;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+/*html5*/
+/*ASIDE SUBNAV*/
+aside {
+	width: 25%;
+	min-width: 320px;
+	height: 375px;
+	padding-bottom: 2%;
+	border-radius: 9px;
+	display: block;
+	background-color: #FFF;
+	opacity: 0.7;
+	margin: 40px auto 0 auto;
+}
+
+ul.subNav {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #000;
+	font-size: 2em;
+	padding-left: 10px;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+.subNav a:hover {
+	color: #ff6666;
+	text-decoration: none;
+}
+
+/*SUBNAVROW1*/
+#sNr1 {
+	padding-top: 1%;
+}
+/*SUBNAVROW2*/
+#sNr2 {
+	padding-top: 1%;
+	margin-bottom: 2%;
+}
+
+/*STYLE FOR SCALES AT BOTTOM OF ASIDE*/
+#majorScale {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #000;
+	font-size: 1.125em;
+	text-align: center;
+	margin-left: 2%; 
+}
+
+#minorScale {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #000;
+	font-size: 1.125em;
+	text-align: center;
+	margin-left: 2%; 
+}
+
+#majorScale1, #majorScale2, #majorScale3, #majorScale4 {
+	background-color: #dcedc1;
+}
+
+#majorScale5, #majorScale6, #majorScale7, #majorScale8 {
+	background-color: #ffd3b6;
+}
+
+#minorScale1, #minorScale2, #minorScale3, #minorScale4 {
+	background-color: #ffaaa5;
+}
+
+#minorScale5, #minorScale6, #minorScale7, #minorScale8 {
+	background-color: #ff8b94
+}
+
+/*CLASS FOR MIDDLE OF PAGE - CONTAINING ALL PADS*/
+.padContainer {
+	width: 320px;
+	min-width: 320px;
+	min-height: 320px;
+	display: block;
+	margin: 40px auto 0 auto;
+} 
+
+#embedPlayer {
+	position: absolute;
+}
+
+/*PADS 1 - 4*/
+.rowOne {
+	background-color: #dcedc1;
+	height: 77px;
+	width: 77px;
+	border-radius: 8px;
+	display: inline-block;
+}
+/*PADS 5 - 8*/
+.rowTwo {
+	background-color: #ffd3b6;
+	height: 77px;
+	width: 77px;
+	border-radius: 8px;
+	display: inline-block;
+	margin-top: 3px;
+}
+/*PADS 9 - 12*/
+.rowThree {
+	background-color: #ffaaa5;
+	height: 77px;
+	width: 77px;
+	border-radius: 8px;
+	display: inline-block;
+	margin-top: 3px;
+}
+/*PADS 13 - 16*/
+.rowFour {
+	background-color: #ff8b94;
+	height: 77px;
+	width: 77px;
+	border-radius: 8px;
+	display: inline-block;
+	margin-top: 3px;
+}
+
+/*html5*/
+/*RIGHT OF PAGE*/
+section {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*.sideContainer {
+	height: 400px;
+	width: 10%;
+	display: inline-block;
+	margin-top: 40px;
+	display: none;
+} */
+
+/*FOOTER ELEMENTS*/
+/*html5*/
+footer {
+	background-color: #fafafa;
+	width: 100%;
+	height: 4%;
+    bottom:0;
+    display: block;
+}
+
+footer p {
+	color: #FFF;
+	font-size: 0.625em;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+
+/*TEXT STYLES*/
+
+h2 {
+	font-family: 'Great Vibes', sans-serif; 
+	font-weight: 400;
+	color: #ff6666;
+	font-size: 2.625em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 300;
+	color: #000;
+	font-size: 2.875em;
+	padding-top: 5px;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Great Vibes', sans-serif; 
+	font-weight: 400;
+	color: #000;
+	font-size: 1.5em;
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	color: #000;
+	font-size: 0.875em;
+	padding-left: 5px;
+}
+
+.padContainer p span {
+	margin-top: 45px;
+	position: absolute;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	border-style: none;
+}
+
+
+a.inline.cboxElement {
+	border-style: none;
+	text-decoration: none;
+	overflow: all;
+}
+
+#inline-content p {
+	display: none;
+	font-size: 1.250em;
+	padding: 20px;
+	margin: 40px;
+}
+
+#inline-content p span {
+	font-family: 'Great Vibes', sans-serif; 
+	font-weight: 400;
+	font-size: 1.250em;
+	color: black;
+}
+
+/* screen sizes larger than 370px */
+@media only screen and (min-width: 370px) {
+	.padContainer {
+		width: 375px;
+		min-width: 375px;
+		min-height: 375px;
+	} 
+
+	/*PADS 1 - 4*/
+	.rowOne , .rowTwo , .rowThree , .rowFour {
+		height: 90.75px;
+		width: 90.75px;
+	}
+
+	.padContainer p span {
+		margin-top: 60px;
+	}
+}
+
+/* screen sizes larger than 375px and less then 800px */
+@media only screen and (min-width: 635px) {
+	
+	.containerOne , .containerTwo {
+		width: 100%;
+		margin-top: 0;
+		margin: 0 auto;
+	}
+
+	aside {
+		min-width: 220px;
+		display: inline-block;
+		margin: 40px 0 40px 20px;
+	}
+	
+	.padContainer {
+		display: inline-block;
+		min-width: 375px;
+		margin: 40px 20px 40px 0;
+		float: right;
+	}
+
+	ul#mainNav {
+		text-align: right;
+		float: right;
+	}
+
+	#logo {
+		font-size: 4em;
+		padding-top: 20px;
+	}
+
+	.sideContainer {
+		display: inline-block;
+	} 
+
+}
+
+/* screen sizes larger than 1200px */
+@media only screen and (min-width: 820px) {
+	aside , .padContainer {
+		float: left;
+	}
+
+	aside {
+		margin-left: 20%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
