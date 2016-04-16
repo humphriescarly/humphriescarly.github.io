@@ -77,44 +77,41 @@ $(function(){
 		timeout($("#majorRoot"), '#dcedc1');
 		// holder.push(true);
 		// console.log(holder.length);
-
-
 		if(key === "a"){
-			console.log('playing')
-		$('#majorRoot').append('<embed id="embedPlayer" data-sound="audio/A.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerA")[0].play();
 		}
 		else if(key === "bb"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/Bb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerBb")[0].play();
 		}
 		else if(key === "b"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/B.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerB")[0].play();
 		}
 		else if(key === "c"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/C.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerC")[0].play();
 		}
 		else if(key === "c#"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/Csharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerCsharp")[0].play();
 		}
 		else if(key === "d"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/D.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerD")[0].play();
 		}
 		else if(key === "eb"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/Eb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerEb")[0].play();
 		}
 		else if(key === "e"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "f"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "f#"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "g"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "ab"){
-		$('#majorRoot').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else{
 		}
@@ -125,40 +122,40 @@ $(function(){
 		$("#major2nd").css("backgroundColor", "#a8e6cf");
 		timeout($("#major2nd"), '#dcedc1');
 		if(key === "a"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/B.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerB")[0].play();
 		}
 		else if(key === "bb"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/C.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerC")[0].play();
 		}
 		else if(key === "b"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/Csharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerCsharp")[0].play();
 		}
 		else if(key === "c"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/D.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerD")[0].play();
 		}
 		else if(key === "c#"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/Eb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerEb")[0].play();
 		}
 		else if(key === "d"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "eb"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "e"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "f"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "f#"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "g"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "ab"){
-		$('#major2nd').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else{
 		}
@@ -169,40 +166,40 @@ $(function(){
 		$("#major3rd").css("backgroundColor", "#a8e6cf");
 		timeout($("#major3rd"), '#dcedc1');
 		if(key === "a"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/CSharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerCsharp")[0].play();
 		}
 		else if(key === "bb"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/D.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerD")[0].play();
 		}
 		else if(key === "b"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/Eb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerEb")[0].play();
 		}
 		else if(key === "c"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "c#"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "d"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "eb"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "e"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "f"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "f#"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "g"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "ab"){
-		$('#major3rd').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else{
 		}
@@ -213,40 +210,40 @@ $(function(){
 		$("#major4th").css("backgroundColor", "#a8e6cf");
 		timeout($("#major4th"), '#dcedc1');
 		if(key === "a"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/D.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerD")[0].play();
 		}
 		else if(key === "bb"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/Eb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerEb")[0].play();
 		}
 		else if(key === "b"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "c"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "c#"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "d"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "eb"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "e"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "f"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "f#"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "g"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "ab"){
-		$('#major4th').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else{
 		}
@@ -258,40 +255,40 @@ $(function(){
 		$("#major5th").css("backgroundColor", "	#FFC36D");
 		timeout($("#major5th"), '#ffd3b6');
 		if(key === "a"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "bb"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "b"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "c"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "c#"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "d"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "eb"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "e"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "f"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "f#"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else if(key === "g"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/HighD.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighD")[0].play();
 		}
 		else if(key === "ab"){
-		$('#major5th').append('<embed id="embedPlayer" src="audio/HighEb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighEb")[0].play();			
 		}
 		else{
 		}
@@ -302,40 +299,40 @@ $(function(){
 		$("#major6th").css("backgroundColor", "#FFC36D");
 		timeout($("#major6th"), '#ffd3b6');
 		if(key === "a"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "bb"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "b"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "c"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "c#"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "d"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "eb"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "e"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else if(key === "f"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/HighD.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighD")[0].play();
 		}
 		else if(key === "f#"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/HighEb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighEb")[0].play();
 		}
 		else if(key === "g"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/HighE.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighE")[0].play();
 		}
 		else if(key === "ab"){
-		$('#major6th').append('<embed id="embedPlayer" src="audio/HighF.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighF")[0].play();
 		}
 		else{
 		}
@@ -346,40 +343,40 @@ $(function(){
 		$("#major7th").css("backgroundColor", "#FFC36D");
 		timeout($("#major7th"), '#ffd3b6');
 		if(key === "a"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "bb"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "b"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "c"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "c#"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "d"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else if(key === "eb"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighD.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighD")[0].play();
 		}
 		else if(key === "e"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighEb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighEb")[0].play();
 		}
 		else if(key === "f"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighE.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighE")[0].play();
 		}
 		else if(key === "f#"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighF.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighF")[0].play();
 		}
 		else if(key === "g"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighFsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighFsharp")[0].play();
 		}
 		else if(key === "ab"){
-		$('#major7th').append('<embed id="embedPlayer" src="audio/HighG.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighG")[0].play();
 		}
 		else{
 		}
@@ -390,40 +387,40 @@ $(function(){
 		$("#major8va").css("backgroundColor", "#FFC36D");
 		timeout($("#major8va"), '#ffd3b6');
 		if(key === "a"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "bb"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "b"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "c"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "c#"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else if(key === "d"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighD.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighD")[0].play();
 		}
 		else if(key === "eb"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighEb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighEb")[0].play();
 		}
 		else if(key === "e"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighE.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighE")[0].play();
 		}
 		else if(key === "f"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighF.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighF")[0].play();
 		}
 		else if(key === "f#"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighFsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighFsharp")[0].play();
 		}
 		else if(key === "g"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighG.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighG")[0].play();
 		}
 		else if(key === "ab"){
-		$('#major8va').append('<embed id="embedPlayer" src="audio/HighAb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighAb")[0].play();
 		}
 		else{
 		}
@@ -435,40 +432,40 @@ $(function(){
 		$("#minorRoot").css("backgroundColor", "#D991A2");
 		timeout($("#minorRoot"), '#ffaaa5');
 		if(key === "a"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/A.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerA")[0].play();
 		}
 		else if(key === "bb"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/Bb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerBb")[0].play();
 		}
 		else if(key === "b"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/B.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerB")[0].play();
 		}
 		else if(key === "c"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/C.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerC")[0].play();
 		}
 		else if(key === "c#"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/Csharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerCsharp")[0].play();
 		}
 		else if(key === "d"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/D.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerD")[0].play();
 		}
 		else if(key === "eb"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/Eb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerEb")[0].play();
 		}
 		else if(key === "e"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "f"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "f#"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "g"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "ab"){
-		$('#minorRoot').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else{
 		}
@@ -479,40 +476,40 @@ $(function(){
 		$("#minor2nd").css("backgroundColor", "#D991A2");
 		timeout($("#minor2nd"), '#ffaaa5');
 		if(key === "a"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/B.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerB")[0].play();
 		}
 		else if(key === "bb"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/C.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerC")[0].play();
 		}
 		else if(key === "b"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/Csharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerCsharp")[0].play();
 		}
 		else if(key === "c"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/D.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerD")[0].play();
 		}
 		else if(key === "c#"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/Eb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerEb")[0].play();
 		}
 		else if(key === "d"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "eb"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "e"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "f"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "f#"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "g"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "ab"){
-		$('#minor2nd').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else{
 		}
@@ -523,40 +520,40 @@ $(function(){
 		$("#minor3rd").css("backgroundColor", "#D991A2");
 		timeout($("#minor3rd"), '#ffaaa5');
 		if(key === "a"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/C.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerC")[0].play();
 		}
 		else if(key === "bb"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/Csharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerCsharp")[0].play();
 		}
 		else if(key === "b"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerD")[0].play();
 		}
 		else if(key === "c"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/Eb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerEb")[0].play();
 		}
 		else if(key === "c#"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "d"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "eb"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "e"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "f"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "f#"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "g"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "ab"){
-		$('#minor3rd').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else{
 		}
@@ -567,40 +564,40 @@ $(function(){
 		$("#minor4th").css("backgroundColor", "#D991A2");
 		timeout($("#minor4th"), '#ffaaa5');
 		if(key === "a"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/D.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerD")[0].play();
 		}
 		else if(key === "bb"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/Eb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerEb")[0].play();
 		}
 		else if(key === "b"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "c"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "c#"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "d"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "eb"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "e"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "f"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "f#"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "g"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "ab"){
-		$('#minor4th').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else{
 		}
@@ -612,40 +609,40 @@ $(function(){
 		$("#minor5th").css("backgroundColor", "#B25D71");
 		timeout($("#minor5th"), '#ff8b94');
 		if(key === "a"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/E.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerE")[0].play();
 		}
 		else if(key === "bb"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "b"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "c"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "c#"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "d"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "eb"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "e"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "f"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "f#"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else if(key === "g"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/HighD.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighD")[0].play();
 		}
 		else if(key === "ab"){
-		$('#minor5th').append('<embed id="embedPlayer" src="audio/HighEb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighEb")[0].play();			
 		}
 		else{
 		}
@@ -656,40 +653,40 @@ $(function(){
 		$("#minor6th").css("backgroundColor", "#B25D71");
 		timeout($("#minor6th"), '#ff8b94');
 		if(key === "a"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/F.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerF")[0].play();
 		}
 		else if(key === "bb"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/Fsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerFsharp")[0].play();
 		}
 		else if(key === "b"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "c"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "c#"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "d"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "eb"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "e"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "f"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else if(key === "f#"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/HighD.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighD")[0].play();
 		}
 		else if(key === "g"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/HighEb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighEb")[0].play();
 		}
 		else if(key === "ab"){
-		$('#minor6th').append('<embed id="embedPlayer" src="audio/HighE.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighE")[0].play();
 		}
 		else{
 		}
@@ -700,40 +697,40 @@ $(function(){
 		$("#minor7th").css("backgroundColor", "#B25D71");
 		timeout($("#minor7th"), '#ff8b94');
 		if(key === "a"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/G.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerG")[0].play();
 		}
 		else if(key === "bb"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/Ab.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerAb")[0].play();
 		}
 		else if(key === "b"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "c"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "c#"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "d"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "eb"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else if(key === "e"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighD.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighD")[0].play();
 		}
 		else if(key === "f"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighEb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighEb")[0].play();
 		}
 		else if(key === "f#"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighE.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighE")[0].play();
 		}
 		else if(key === "g"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighF.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighF")[0].play();
 		}
 		else if(key === "ab"){
-		$('#minor7th').append('<embed id="embedPlayer" src="audio/HighG.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighG")[0].play();
 		}
 		else{
 		}
@@ -744,40 +741,40 @@ $(function(){
 		$("#minor8va").css("backgroundColor", "#B25D71");
 		timeout($("#minor8va"), '#ff8b94');
 		if(key === "a"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighA.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighA")[0].play();
 		}
 		else if(key === "bb"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighBb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighBb")[0].play();
 		}
 		else if(key === "b"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighB.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighB")[0].play();
 		}
 		else if(key === "c"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighC.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighC")[0].play();
 		}
 		else if(key === "c#"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighCsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighCsharp")[0].play();
 		}
 		else if(key === "d"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighD.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighD")[0].play();
 		}
 		else if(key === "eb"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighEb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighEb")[0].play();
 		}
 		else if(key === "e"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighE.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighE")[0].play();
 		}
 		else if(key === "f"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighF.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighF")[0].play();
 		}
 		else if(key === "f#"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighFsharp.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighFsharp")[0].play();
 		}
 		else if(key === "g"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighG.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighG")[0].play();
 		}
 		else if(key === "ab"){
-		$('#minor8va').append('<embed id="embedPlayer" src="audio/HighAb.mp3" autostart="true" hidden="true"></embed>');
+			$("#AudioTriggerHighAb")[0].play();
 		}
 		else{
 		}
